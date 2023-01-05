@@ -1,4 +1,4 @@
-if Settings.UniGodModeBroly ~= nil and Customizable.CustomWeebhook ~= nil then
+if Settings.UniGodModeBroly == nil and Customizable.CustomWeebhook == nil then
   game:GetService("StarterGui"):SetCore("SendNotification", {Title = "NDR-AutoBuying Outdated", Text = "Downlnoad the last veersion in NDR Server"})
   wait(.5)
   setclipboard("https://discord.gg/JKPv3996HS")
