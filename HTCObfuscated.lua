@@ -1,4 +1,4 @@
-if Settings.UniGodModeBroly == nil and Customizable.CustomWeebhook == nil then
+if _G.NerfHighStats == nil then
   game:GetService("StarterGui"):SetCore("SendNotification", {Title = "NDR-AutoHTC Outdated", Text = "Downlnoad the last veersion in NDR Server"})
   wait(.5)
   setclipboard("https://discord.gg/JKPv3996HS")
